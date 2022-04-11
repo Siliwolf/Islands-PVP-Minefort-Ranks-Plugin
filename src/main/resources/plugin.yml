@@ -1,0 +1,14 @@
+name: IPVPRanks
+version: '${project.version}'
+main: ipvp.ranks.ipvp_ranks.IPVPRanks
+api-version: 1.18
+authors: [ Siliwolf ]
+commands:
+  setrank:
+    description: Set a rank of a player
+    usage: /setrank [rank] [player]
+    permission: op
+  stripranks:
+    description: Removes all ranks from a player
+    usage: /stripranks [player]
+    permission: op
